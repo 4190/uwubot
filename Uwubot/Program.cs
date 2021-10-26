@@ -15,7 +15,6 @@ namespace Uwubot
 
 	public class Program
 	{
-		private DiscordSocketClient _client;
 		public const string configurePath = "Secret/cfg.json";
 		public static Config AppConfig { get; set; }
 	//	public static CancellationTokenSource CancellationTokenSource { get; set; } = new CancellationTokenSource();
